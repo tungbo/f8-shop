@@ -1172,3 +1172,7 @@ i.home-product-item__like-icon-fill {
     font-size: 1.2rem;
     line-height: 1.2rem;
 }
+
+.home-product__pagination {
+    margin: 48px 0 32px 0;
+}
