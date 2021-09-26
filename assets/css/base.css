@@ -259,5 +259,123 @@ html {
 
 /* Footer */
 .footer {
+    background-color: var(--white-color);
+    padding-top: 16px;
+    border-top: 4px solid var(--primary-color);
+}
 
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.footer__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer__item-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #737373;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer__item-link:hover {
+    color: var(--primary-color);
+}
+
+.footer__item-icon {
+    font-size: 1.6rem;
+    margin: -1px 8px 0 0;
+}
+
+.footer__download {
+    display: flex;
+}
+
+.footer__download-qr {
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--border-color);
+}
+
+.footer__download-apps {
+    margin-left: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__download-app-icon {
+    height: 16px;
+}
+
+.footer__download-app-link {
+    color: transparent;
+    text-decoration: none;
+}
+
+/* footer bottom */
+
+.footer__bottom {
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.footer__policy {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.footer__policy-text {
+    color: rgb(179 179 179);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    border-left: 1px solid var(--border-color);
+    padding: 0 24px;
+}
+
+.footer__policy-text:first-child {
+    border: none;
+}
+
+.footer__certification {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__certification-logo {
+    width: 120px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.footer__company {
+    padding: 4px 0 15px 0;
+}
+
+.footer__company-name {
+    color: rgb(179 179 179);
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: center;
+}
+
+.footer__address {
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer__address-infor {
+    color: rgb(179 179 179);
+    list-style: none;
+    font-size: 1.1rem;
 }
