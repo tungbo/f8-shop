@@ -464,6 +464,15 @@
     margin: 0 8px;
 }
 
+.header__mobile-search {
+    padding: 0 12px;
+}
+
+.header__mobile-search-icon {
+    font-size: 2.6rem;
+    color: var(--white-color);
+}   
+
 .header__logo {
     width: 200px;   
 }
@@ -473,8 +482,14 @@
     fill: var(--white-color);
 }
 
+.header___search-checkbox:checked ~ .header__search {
+    display: flex;
+}
+
 .header__logo-link {
     text-decoration: none;
+    display: block;
+    line-height: 0;
 }
 
 .header__search {
