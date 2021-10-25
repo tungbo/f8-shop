@@ -361,6 +361,7 @@ html {
 
 .footer__address {
     margin: 0;
+    padding-left: 0;
     text-decoration: none;
     text-align: center;
 }
